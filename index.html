@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Chat Bootstrap</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="icon" href="favicon.ico">
+	</head>
+	<body>
+	<!-- escribe aqui maybet -->
+	<div class="container-fluid box">
+		<div id="maybet"class="alert alert-info"><h3>Hola!!</h3>
+			<p>Escribe en el campo de abajo y preciona OK.(puedes cambir el tipo si deseas)</p>
+		</div>
+  	<div class="panel panel-default">
+  		<ul class="list-group bg resultado" id="chat-output"></ul>
+  		<div class="panel-body">
+  			<form id="chat">
+  			<div class="col-md-2 pd-0">
+  				<div class="btn-group dropup">
+				  <button type="button" class="btn btn-default">wam</button>
+				  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    <span class="caret"></span>
+				    <span class="sr-only">Toggle Dropdown</span>
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><a href="#">wran</a></li>
+				    <li><a href="#">ok</a></li>
+				    <li><a href="#">danger</a></li>
+				    <li><a href="#">falta</a></li>
+				  </ul>
+					</div>
+				</div>
+				<div class="col-md-10 pd-0">
+					<div class="input-group">
+  					<input type="text"  id="my-input" class="form-control" />
+  					<span class="input-group-btn">
+  						<button type="submit" id="send" class="btn btn-default">ok</button>
+  					</span>
+  				</div>
+				</div>
+  			</form>
+  		</div>
+  	</div>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
